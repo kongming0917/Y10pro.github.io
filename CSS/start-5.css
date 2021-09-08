@@ -1,0 +1,16 @@
+.flex-column{
+    height: 80vh;
+}
+.btn-tel {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#answer {
+    width:200px;
+    height:30px;
+  }

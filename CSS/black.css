@@ -1,0 +1,245 @@
+/* body */
+.full {
+    margin:0; 
+    padding:0; 
+    width:100%; 
+    height:100%;
+    position: fixed;
+    background-color: rgba(64,64,64,1);
+    color: white;
+}
+
+.overflow {
+    margin:0; 
+    padding:0; 
+    width:100%; 
+    background-color: rgba(64,64,64,1);
+    color: white;
+}
+.overflow .item {
+    margin: 4% 0;
+}
+
+/* flex design*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* title */
+.title{
+    text-decoration: underline rgba(255,255,255,.39);
+    text-underline-position: under;
+}
+
+/* button style */
+/* 기본 버튼 */
+.white-btn{
+    cursor: pointer;
+    border: 4px solid rgba(160,158,158,1);
+    background-color: rgba(160,158,158,1);
+    color: white;
+    width: 80%;
+    border-radius: 40px;    
+    padding: 6px;
+}
+.pink-btn{
+    cursor: pointer;
+    border: 4px solid rgba(212,180,212,.83);
+    background-color: rgba(255,246,247,1);
+    color: black;
+    width: 80%;
+    border-radius: 40px;
+    padding: 6px;
+}
+.blue-btn{
+    cursor: pointer;
+    border: 4px solid rgba(116,135,188,.83);
+    background-color: rgba(232,242,255, 1);
+    color: black;
+    width: 80%;
+    border-radius: 40px;
+    padding: 6px;
+}
+
+/* 상세정보 */
+.info-btn{
+    cursor: pointer;
+    border: 4px solid rgba(255,255,255,.83);
+    background-color: rgba(42,54,59,1);
+    color: white;
+    width: 80%;
+    border-radius: 40px;
+    padding: 6px;
+}
+
+/* 다른추천 */
+.reco-btn{
+    cursor: pointer;
+    border: 4px solid rgba(255,255,255,.83);
+    background-color: rgba(107,182,188,1);
+    color: white;
+    width: 80%;
+    border-radius: 40px;
+    padding: 6px;
+}
+
+/* text */
+.text1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.text2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.text4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* 중앙정렬 */
+.align-center {
+    text-align: center;
+}
+
+/* 돌아가기 버튼 */
+.return {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.return .btn{
+    position: fixed;
+    cursor: pointer;
+    bottom: 5%;
+    width: 80%;
+    border: 4px solid rgba(106,104,104,1);
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 6px;
+    z-index: 2;
+}
+
+/* 뒤로가기 버튼 */
+.back .btn{
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    cursor: pointer;
+    border: 4px solid white;
+    color: white;
+    background-color: rgba(64,64,64,1);
+    border-radius: 30px;
+    padding: 6px;
+}
+
+/* 확인버튼 */
+.ok .btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    border: 4px solid white;
+    color: white;
+    background-color: rgba(64,64,64,1);
+    border-radius: 30px;
+    padding: 6px;
+}
+
+/* 바로가기 버튼 */
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shortcut .btn{
+    position: fixed;
+    cursor: pointer;
+    top: 5%;
+    width: 80%;
+    border: 4px solid rgba(115,76,38,.83);
+    color: black;
+    background-color: rgba(255,247,220,1);
+    border-radius: 40px;
+    padding: 6px;
+    z-index: 2;
+}
+
+
+/* 빈박스 */
+.blank{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(64,64,64,1);
+}
+
+/* header */
+header {
+    bottom: 0;
+    left: 0;  
+}
+/* footer */ 
+footer {
+    bottom: 0;
+    left: 0;  
+}
+
+
+/* restaurant */
+.rest-title{
+    text-decoration: underline rgba(255,255,255,.39);
+    text-underline-position: under;
+}
+.rest-wrap{ 
+    overflow: scroll; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    width: 100%; 
+}
+.menu-wrap{
+    margin: 0% 5%;
+}
+.menu-img{
+    width: 90vw;
+    height: 35vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* color */
+.red{
+    color: rgba(190,92,92);
+}
+.blue{
+    color: rgba(79,101,152,1);
+}
+.light-blue{
+    color: rgba(79,101,152,.85);
+}
+.green{
+    color: rgba(12,83,31,1);
+}
+.light-green{
+    color: rgba(44,103,42);
+}
+.brown{
+    color: rgba(59,29,10,.8);
+}
+.bar{
+    background-color: rgba(255,255,255,.39);
+}

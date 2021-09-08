@@ -1,0 +1,91 @@
+/* body */
+body {
+    margin:0; 
+    padding:0; 
+    width:100%; 
+    height:100%;
+    position: fixed;
+}
+
+/* flex design (section)*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* text */
+.text1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.text2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.text4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* 중앙정렬 */
+.align-center {
+    text-align: center;
+}
+
+/* 돌아가기 버튼 */
+.return {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.return .btn{
+    position: fixed;
+    cursor: pointer;
+    bottom: 5%;
+    width: 80%;
+    border: 4px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 6px;
+    z-index: 2;
+}
+
+/* 뒤로가기 버튼 */
+.back .btn{
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    cursor: pointer;
+    border: 4px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 6px;
+}
+
+/* 확인버튼 */
+.ok .btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    border: 4px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 6px;
+}
+
+/* footer */ 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5 rem;
+    color: #ffffff;
+    background-color: #333333;
+}

@@ -1,0 +1,12 @@
+.flex-column{
+    height: 85vh;
+}
+
+section .btn {
+    cursor: pointer;
+    border: 4px solid #A25BBF;
+    color: #A25BBF;
+    border-radius: 40px;
+    padding: 6px;
+    width: 70%;
+}

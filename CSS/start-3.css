@@ -1,0 +1,19 @@
+*{
+    transition: all .2s ease-in-out;
+}
+
+.flex-column{
+    height: 85vh;
+}
+
+section .btn {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+    border-radius: 40px;
+    padding: 6px;
+}
+section .btn:hover {
+    background-color: black;
+    color: white;
+}

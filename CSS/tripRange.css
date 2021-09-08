@@ -1,0 +1,27 @@
+*{
+    transition: all .2s ease-in-out;
+}
+
+.flex-column{
+    height: 80vh;
+}
+section .btn {
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    height:25%;
+    width: 100%;
+}
+#map{
+    background-color: #F8B195;
+    
+}
+#nbr{
+    background-color: #F67280;
+}
+#natl{
+    background-color: #C06C84;
+}
+#intl{
+    background-color: #6C5B7B;
+}

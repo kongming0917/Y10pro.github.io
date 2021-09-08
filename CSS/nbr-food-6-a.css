@@ -1,0 +1,16 @@
+#time {
+    color: rgba(190,92,92);
+    background-color: white;
+    padding: 6px;
+    border: 2px solid rgba(112,112,112);
+    border-radius: 30px;
+}
+#jiim{
+    background-image: url(../image/편백찜.jpg);
+}
+#soup-2{
+    background-image: url(../image/도가니탕.jpg);
+}
+#soup-3{
+    background-image: url(../image/떡만두설농탕.jpg);
+}
