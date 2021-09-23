@@ -1,0 +1,16 @@
+#time {
+    color: rgba(190,92,92);
+    background-color: white;
+    padding: 6px;
+    border: 2px solid rgba(112,112,112);
+    border-radius: 30px;
+}
+#sol{
+    background-image: url(../image/솔찬공원.jpg);
+}
+#gal2{
+    background-image: url(../image/갈대숲2.jpg);
+}
+#ksen{
+    background-image: url(../image/케이슨24.jpg);
+}

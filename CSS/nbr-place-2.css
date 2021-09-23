@@ -1,0 +1,34 @@
+.btn-place{
+    cursor: pointer;
+    border-style: none;
+    width: 90vw;
+    height: 35vh;
+    z-index: 1;
+
+}
+
+#park{
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../image/park.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#museum{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../image/museum.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ocean{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../image/ocean.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#mountain{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../image/mountain.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

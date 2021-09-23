@@ -98,7 +98,7 @@
     font-weight: 700;
 }
 .text2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 .text3 {
@@ -242,4 +242,16 @@ footer {
 }
 .bar{
     background-color: rgba(255,255,255,.39);
+}
+.bar-green{
+    background-color: rgba(60,115,94,.38);
+}
+.bar-brown{
+    background-color: rgba(94,82,32,.39);
+}
+
+/* 부가 기능 */
+#call:link, #call:visited, #call:hover {
+    color: black; 
+    text-decoration: none;
 }

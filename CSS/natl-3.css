@@ -1,0 +1,42 @@
+.big-btn{
+    width: 80%;
+    border-radius: 60px;
+    padding: 6px;
+    color: black;
+}
+
+.pink-blk{
+    border: 4px solid #D4B4D4;
+    background-color: #FFF6F7;
+}
+.blue-blk{
+    border: 4px solid #7487BC;
+    background-color: #E8F2FF;
+}
+.yellow-blk{
+    border: 4px solid #734C26;
+    background-color: #FFF7DC;
+}
+
+.text-btn{
+    border: none;
+}
+.pink-back{
+    background-color:#FFF6F7;
+}
+.blue-back{
+    background-color: #E8F2FF;
+}
+.yellow-back{
+    background-color: #FFF7DC;
+}
+
+.active-pink{
+    color: rgba(212,180,212,.83);
+}
+.active-blue{
+    color: #7487BC;
+}
+.active-yellow{
+    color: #734C26;
+}

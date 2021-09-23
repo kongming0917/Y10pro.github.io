@@ -1,0 +1,11 @@
+#time {
+    margin: 10% 0;
+    color: rgba(190,92,92);
+    background-color: white;
+    padding: 6px;
+    border: 2px solid rgba(112,112,112);
+    border-radius: 30px;
+}
+#lib{
+    background-image: url(../image/도서관.jpg);
+}

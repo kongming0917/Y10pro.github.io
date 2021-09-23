@@ -1,0 +1,24 @@
+/*.flex-column{
+    height: 80vh;
+}
+
+.map {
+    border-style: none;
+    height:100%;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#southkorea{
+    background-image: url(../image/southkorea.png);
+}*/
+
+body {
+    background-image: url(../image/southkorea.png);
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position-x: center;
+    background-position-y: 160px;
+}
