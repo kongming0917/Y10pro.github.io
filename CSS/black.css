@@ -69,6 +69,15 @@
     border-radius: 40px;
     padding: 6px;
 }
+.yellow-btn{
+    cursor: pointer;
+    border: 4px solid rgba(115,76,38,.83);
+    background-color: rgba(255,247,220,1);
+    color: black;
+    width: 80%;
+    border-radius: 40px;
+    padding: 6px;
+}
 
 /* 상세정보 */
 .info-btn{
@@ -179,6 +188,10 @@
     z-index: 2;
 }
 
+.p-btn, .m-btn{
+    width: 40px;
+    height: 40px;
+}
 
 /* 빈박스 */
 .blank{
@@ -213,7 +226,7 @@ footer {
 .menu-wrap{
     margin: 0% 5%;
 }
-.menu-img{
+.menu-img, .place-img{
     width: 90vw;
     height: 35vh;
     background-size: contain;
@@ -252,6 +265,11 @@ footer {
 
 /* 부가 기능 */
 #call:link, #call:visited, #call:hover {
+    color: black; 
+    text-decoration: none;
+}
+
+.a-deco:link, .a-deco:visited, .a-deco:hover {
     color: black; 
     text-decoration: none;
 }

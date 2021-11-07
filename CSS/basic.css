@@ -67,6 +67,17 @@ body {
     border-radius: 30px;
     padding: 6px;
 }
+.B-back .btn{
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    cursor: pointer;
+    border: 4px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 6px;
+}
 
 /* 확인버튼 */
 .ok .btn{
@@ -79,6 +90,17 @@ body {
     border-radius: 30px;
     padding: 6px;
 }
+.B-ok .btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    border: 4px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 6px;
+}
 
 /* footer */ 
 footer {
@@ -88,4 +110,8 @@ footer {
     height: 2.5 rem;
     color: #ffffff;
     background-color: #333333;
+}
+
+.white {
+    color: white;
 }

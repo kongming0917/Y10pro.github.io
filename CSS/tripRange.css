@@ -13,15 +13,14 @@ section .btn {
     width: 100%;
 }
 #map{
-    background-color: #F8B195;
-    
+    background-color: rgba(248,177,149,1);
 }
 #nbr{
-    background-color: #F67280;
+    background-color: rgba(246,114,128,1);
 }
 #natl{
-    background-color: #C06C84;
+    background-color: rgba(192,108,132,1);
 }
 #intl{
-    background-color: #6C5B7B;
+    background-color: rgba(108,91,123,1);
 }

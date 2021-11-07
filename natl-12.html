@@ -6,30 +6,34 @@
     <meta name="keywords" content="RC Creative Platform">
     <title>여행 기간</title>
     <link rel="stylesheet" href="CSS/white.css" media="screen">
+    <style>
+        select{
+            padding: .8em .5em;
+            border: 1px solid rgba(59,29,10,.8);
+        }
+    </style>
 </head>
-
-<body class="overflow">
-    <section class="flex-column">
-        <select name="pets" id="pet-select">
-            <option value="">--Please choose an option--</option>
-            <option value="dog">Dog</option>
-            <option value="cat">Cat</option>
-            <option value="hamster">Hamster</option>
-            <option value="parrot">Parrot</option>
-            <option value="spider">Spider</option>
-            <option value="goldfish">Goldfish</option>
-        </select>
+<body class="full">
+    <section class="flex-column" style="height:70vh;">
         <span class="title text1">여행 기간</span>
-        <button type="button" class="text2" style="cursor: pointer;border-style: none; background-color: rgba(255,247,238,1);color: black;width: 80%;" onclick="location.href='natl-4.html'">당일치기</button>
-        <button type="button" class="text2" style="cursor: pointer;border-style: none; background-color: rgba(255,247,238,1);color: black;width: 80%;" onclick="location.href='natl-4.html'">1박 2일</button>
-        <button type="button" class="text2" style="cursor: pointer;border-style: none; background-color: rgba(255,247,238,1);color: black;width: 80%;" onclick="location.href='natl-4.html'">2박 3일</button>
-        <button type="button" class="text2" style="cursor: pointer;border-style: none; background-color: rgba(255,247,238,1);color: black;width: 80%;" onclick="location.href='natl-4.html'">3박 4일</button>
-        <button type="button" class="text2" style="cursor: pointer;border-style: none; background-color: rgba(255,247,238,1);color: black;width: 80%;" onclick="location.href='natl-4.html'">4박 5일</button>
-        <button type="button" class="text2" style="cursor: pointer;border-style: none; background-color: rgba(255,247,238,1);color: black;width: 80%;" onclick="location.href='natl-4.html'">5박 6일</button>
+        <select name="period" id="period-select" class="text4">
+            <option value="">--여행기간을 선택해주세요--</option>
+            <option value="1day">당일치기</option>
+            <option value="2days">1박 2일</option>
+            <option value="3days">2박 3일</option>
+            <option value="4days">3박 4일</option>
+            <option value="5days">4박 5일</option>
+            <option value="6days">5박 6일</option>
+            <option value="ndays">그 이상</option>
+        </select>
     </section>
     <div class="back">
         <button type="button" class="btn text2" onclick="location.href='natl-3.html'">뒤로</button>
     </div>
+    <div class="ok">
+        <button type="button" class="btn text2" onclick="location.href='natl-4.html'">확인</button>
+    </div>
+</body>
 </body>
 
 </html>

@@ -7,13 +7,34 @@
     <title>장소취향 분석</title>
     <link rel="stylesheet" href="CSS/white.css" media="screen">
     <link rel="stylesheet" href="CSS/natl-map.css" media="screen">
+    <style>
+        select{
+            padding: .8em .5em;
+            border: 1px solid rgba(59,29,10,.8);
+        }
+        .selected-state{
+            cursor: pointer;
+            border: 4px solid black;
+            color: black;
+            background-color: #FFF7EE;
+            border-radius: 30px;
+            padding: 6px;
+        }
+    </style>
 </head>
 
 <body class="overflow">
     <section class="flex-column">
         <h1 class="text1">가고싶다</h1>
-        <button type="button" class="btn text3" onclick="location.href='natl-3.html'">ㅇㅇ</button>
-        <div id = "southkorea" class = "map"></div>
+        <select name="states" id="state-select" class="text4 item">
+            <option value="">--지역을 선택해주세요--</option>
+            <option value="1">경기도</option>
+            <option value="2">강원도</option>
+            <option value="3">충정도</option>
+            <option value="4">경상도</option>
+            <option value="5">제주도</option>
+        </select>
+        <button type="button" class="btn text3 selected-state" onclick="location.href='natl-3.html'">확인</button>
     </section>
     <div class="return">
         <button type="button" class="btn text2" onclick="location.href='natl-1.html'">돌아가기</button>
